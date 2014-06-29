@@ -18,6 +18,10 @@ group :development, :test do
   gem 'childprocess'
 end
 
+group :test do
+  gem 'factory_girl_rails', '4.2.0'
+end
+
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
